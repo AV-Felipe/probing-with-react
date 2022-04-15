@@ -9,8 +9,11 @@
         <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin defer></script>
         <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin defer></script>
 
-        <!--My script-->
-        <script src="./components-with-js-react.js" type="module" charset="utf-8"></script>
+        <!--Babel for transpiling jsx into plain js-->
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+        <!--My script (now changed into type text/babel)-->
+        <script src="./components-with-jsx-react.js" type="text/babel" defer></script>
 
         <!--Style-->
         <link rel="stylesheet" href="./components/default-list-js-component.css" />
